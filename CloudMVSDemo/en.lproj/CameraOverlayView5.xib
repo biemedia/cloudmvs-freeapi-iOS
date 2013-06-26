@@ -45,7 +45,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{123, 10}, {75, 75}}</string>
 								<reference key="NSSuperview" ref="583796467"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="310867699"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -94,7 +93,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{268, 38}, {18, 19}}</string>
 								<reference key="NSSuperview" ref="583796467"/>
-								<reference key="NSWindow"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -114,7 +112,6 @@
 						</array>
 						<string key="NSFrame">{{0, 472}, {320, 96}}</string>
 						<reference key="NSSuperview" ref="410355350"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="750861075"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
@@ -9962,22 +9959,20 @@ AAEAAQABA</bytes>
 					<object class="IBUIImageView" id="135799456">
 						<reference key="NSNextResponder" ref="410355350"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{5, 5}, {310, 67}}</string>
+						<string key="NSFrame">{{40, 9}, {240, 53}}</string>
 						<reference key="NSSuperview" ref="410355350"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="583796467"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">mobileacuity.png</string>
+							<string key="NSResourceName">pandora.png</string>
 						</object>
 					</object>
 				</array>
 				<string key="NSFrameSize">{320, 568}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="135799456"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<reference key="IBUIBackgroundColor" ref="643935442"/>
@@ -10096,32 +10091,7 @@ AAEAAQABA</bytes>
 			<nil key="sourceID"/>
 			<int key="maxID">96</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">CameraOverlayView</string>
-					<string key="superclassName">UIView</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="cameraPressed:">id</string>
-						<string key="configurationPressed:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="cameraPressed:">
-							<string key="name">cameraPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="configurationPressed:">
-							<string key="name">configurationPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/CameraOverlayView.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
@@ -10130,7 +10100,7 @@ AAEAAQABA</bytes>
 			<string key="CameraButtonIcon.png">{26, 21}</string>
 			<string key="CameraLargeShutterButtonPressed.png">{168, 168}</string>
 			<string key="CameraShutterButton.png">{168, 168}</string>
-			<string key="mobileacuity.png">{244, 53}</string>
+			<string key="pandora.png">{145, 32}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
 	</data>

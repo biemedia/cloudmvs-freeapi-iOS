@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		770C1E4916D7A7F40031870E /* MAAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 770C1E4816D7A7F40031870E /* MAAuthHelper.m */; };
 		770C1E4D16D7BE5C0031870E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770C1E4C16D7BE5C0031870E /* SystemConfiguration.framework */; };
+		7A0E1BCF177B627700586DE2 /* icon_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0E1BCE177B627700586DE2 /* icon_large.png */; };
+		7A0E1BD1177B627A00586DE2 /* icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0E1BD0177B627A00586DE2 /* icon_small.png */; };
 		7AD22FD31778DB1A004EFFA5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AD22FD51778DB1A004EFFA5 /* Localizable.strings */; };
+		7AFE1F83177A4DB900A24B3F /* pandora.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1F82177A4DB900A24B3F /* pandora.png */; };
 		BC8675E176B64F4FB651336D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4028CC52445A09DDA680A /* libPods.a */; };
 		FA2634B61705E83B00DCAF3D /* CameraOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2634B41705E83B00DCAF3D /* CameraOverlayView.m */; };
 		FA40A53316B6C85500AAE317 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40A53216B6C85500AAE317 /* SetupViewController.m */; };
@@ -51,13 +54,16 @@
 		770C1E4816D7A7F40031870E /* MAAuthHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAuthHelper.m; sourceTree = "<group>"; };
 		770C1E4A16D7B9200031870E /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
 		770C1E4C16D7BE5C0031870E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		7AD22FD41778DB1A004EFFA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7A0E1BCE177B627700586DE2 /* icon_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_large.png; sourceTree = "<group>"; };
+		7A0E1BD0177B627A00586DE2 /* icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_small.png; sourceTree = "<group>"; };
+		7AD22FD41778DB1A004EFFA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7AFE1F82177A4DB900A24B3F /* pandora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pandora.png; path = images/pandora.png; sourceTree = SOURCE_ROOT; };
 		C76C2B40E51C4E0682BB8518 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		FA2634B31705E83B00DCAF3D /* CameraOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlayView.h; sourceTree = "<group>"; };
 		FA2634B41705E83B00DCAF3D /* CameraOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraOverlayView.m; sourceTree = "<group>"; };
 		FA40A53116B6C85500AAE317 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
 		FA40A53216B6C85500AAE317 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
-		FA59811916B6854F0050566A /* CloudMVSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudMVSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA59811916B6854F0050566A /* Pandora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pandora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA59811D16B6854F0050566A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA59811F16B6854F0050566A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA59812116B6854F0050566A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +137,8 @@
 		FA59810E16B6854F0050566A = {
 			isa = PBXGroup;
 			children = (
+				7A0E1BD0177B627A00586DE2 /* icon_small.png */,
+				7A0E1BCE177B627700586DE2 /* icon_large.png */,
 				FA59814B16B68A730050566A /* ImageManipulation */,
 				FA59812316B6854F0050566A /* CloudMVSDemo */,
 				FA59811C16B6854F0050566A /* Frameworks */,
@@ -142,7 +150,7 @@
 		FA59811A16B6854F0050566A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA59811916B6854F0050566A /* CloudMVSDemo.app */,
+				FA59811916B6854F0050566A /* Pandora.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,6 +202,7 @@
 		FA59812416B6854F0050566A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7AFE1F82177A4DB900A24B3F /* pandora.png */,
 				FAF7E7D1170D883E00DE0CDA /* CameraButtonIcon.png */,
 				FAF7E7D2170D883E00DE0CDA /* CameraLargeShutterButtonPressed.png */,
 				FAF7E7D3170D883E00DE0CDA /* CameraShutterButton.png */,
@@ -229,9 +238,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA59811816B6854F0050566A /* CloudMVSDemo */ = {
+		FA59811816B6854F0050566A /* Pandora */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA59813D16B6854F0050566A /* Build configuration list for PBXNativeTarget "CloudMVSDemo" */;
+			buildConfigurationList = FA59813D16B6854F0050566A /* Build configuration list for PBXNativeTarget "Pandora" */;
 			buildPhases = (
 				FA59811516B6854F0050566A /* Sources */,
 				FA59811616B6854F0050566A /* Frameworks */,
@@ -242,9 +251,9 @@
 			);
 			dependencies = (
 			);
-			name = CloudMVSDemo;
+			name = Pandora;
 			productName = CloudMVSDemo;
-			productReference = FA59811916B6854F0050566A /* CloudMVSDemo.app */;
+			productReference = FA59811916B6854F0050566A /* Pandora.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -268,7 +277,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA59811816B6854F0050566A /* CloudMVSDemo */,
+				FA59811816B6854F0050566A /* Pandora */,
 			);
 		};
 /* End PBXProject section */
@@ -294,6 +303,9 @@
 				FAF7E7EB170D88DC00DE0CDA /* CameraOverlayView.xib in Resources */,
 				FAF7E7EC170D88DC00DE0CDA /* CameraOverlayView5.xib in Resources */,
 				7AD22FD31778DB1A004EFFA5 /* Localizable.strings in Resources */,
+				7AFE1F83177A4DB900A24B3F /* pandora.png in Resources */,
+				7A0E1BCF177B627700586DE2 /* icon_large.png in Resources */,
+				7A0E1BD1177B627A00586DE2 /* icon_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C76C2B40E51C4E0682BB8518 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CloudMVSDemo/CloudMVSDemo-Prefix.pch";
 				INFOPLIST_FILE = "CloudMVSDemo/CloudMVSDemo-Info.plist";
@@ -419,6 +432,7 @@
 					"\"$(SDKROOT)/usr/lib/system\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Ad-Hoc";
@@ -492,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C76C2B40E51C4E0682BB8518 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CloudMVSDemo/CloudMVSDemo-Prefix.pch";
 				INFOPLIST_FILE = "CloudMVSDemo/CloudMVSDemo-Info.plist";
@@ -501,6 +516,7 @@
 					"\"$(SDKROOT)/usr/lib/system\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -518,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA59813D16B6854F0050566A /* Build configuration list for PBXNativeTarget "CloudMVSDemo" */ = {
+		FA59813D16B6854F0050566A /* Build configuration list for PBXNativeTarget "Pandora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA59813E16B6854F0050566A /* Debug */,
