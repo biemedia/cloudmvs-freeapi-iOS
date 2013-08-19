@@ -57,6 +57,7 @@
 		7A0E1BCE177B627700586DE2 /* icon_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_large.png; sourceTree = "<group>"; };
 		7A0E1BD0177B627A00586DE2 /* icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_small.png; sourceTree = "<group>"; };
 		7AD22FD41778DB1A004EFFA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7AF138211784C06700D137F0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7AFE1F82177A4DB900A24B3F /* pandora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pandora.png; path = images/pandora.png; sourceTree = SOURCE_ROOT; };
 		C76C2B40E51C4E0682BB8518 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		FA2634B31705E83B00DCAF3D /* CameraOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlayView.h; sourceTree = "<group>"; };
@@ -271,6 +272,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = FA59810E16B6854F0050566A;
 			productRefGroup = FA59811A16B6854F0050566A /* Products */;
@@ -356,6 +358,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7AD22FD41778DB1A004EFFA5 /* en */,
+				7AF138211784C06700D137F0 /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

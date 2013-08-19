@@ -29,8 +29,8 @@ int main(int argc, char *argv[])
     // en - English
     // es - Spanish
     // fr - French
-    NSArray *langOrder = [NSArray arrayWithObjects:@"en", nil];
-    [[NSUserDefaults standardUserDefaults] setObject:langOrder forKey:@"AppleLanguages"];
+    //NSArray *langOrder = [NSArray arrayWithObjects:@"es", nil];
+    //[[NSUserDefaults standardUserDefaults] setObject:langOrder forKey:@"AppleLanguages"];
     
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));

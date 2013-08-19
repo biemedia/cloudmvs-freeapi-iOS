@@ -19,7 +19,6 @@
 //  limitations under the License.
 //
 
-"TITLEIMAGE"            = "pandora.png";
 "ANALYZINGIMAGE"        = "Analyzing Image";
 "MATCHNOTFOUND"         = "Unable to find a match";
 "LOADING"               = "Loading";
